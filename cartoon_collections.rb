@@ -33,3 +33,4 @@ array.find do |item|
     cheese_types.include?(item)
   end
 end
+
