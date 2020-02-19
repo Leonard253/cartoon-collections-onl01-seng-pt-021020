@@ -34,3 +34,9 @@ array.find do |item|
   end
 end
 
+def find_the_cheese2(array, array2)
+  cheese_types = array2
+    array.find do |type|
+    cheese_types.include?(type)
+  end 
+end
